@@ -6,7 +6,7 @@ I needed a DHL wrapper so I could efficiently provide courier quotes to customer
 
 ### Prerequisites
 
-This should work fine on Laravel>=5.7.28 as such.
+This should work fine on Laravel>=5.7.28, if your version of Laravel does not support auto linking you will need to add `\jackbayliss\DHLApi\DHLAPIProvider::class` into your providers array located in `config/app.php`
 
 ### Installing
 
