@@ -12,6 +12,13 @@
             "email": "duwayne@hashtec.co.za"
         }
     ],
+    "minimum-stability": "stable",
+    "keywords" : [
+        "laravel",
+        "php",
+        "dhl xml",
+        "dhml xml api"
+    ],
     "autoload": {
         "psr-4": {
             "jackbayliss\\DHLApi\\": "src/"
