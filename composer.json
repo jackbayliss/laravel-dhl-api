@@ -1,0 +1,23 @@
+{
+    "name": "jackbayliss/laravel-dhl-api",
+    "description": "DHL XML Wrapper for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack Bayliss",
+            "email": "jack@jackbayliss.com"
+        },
+        {
+            "name": "Duwayne Brown",
+            "email": "duwayne@hashtec.co.za"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "jackbayliss\\DHLApi\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
